@@ -98,7 +98,7 @@ namespace stock
         /// </summary>
         /// <param name="assetName">имя актива</param>
         /// <param name="price">текущая цена</param>
-        /// <returns>подходит ли цена для покупки</returns>
+        /// <returns>подходит ли цена для покупки актива</returns>
         private bool CheckPrice(string assetName, decimal price)
         {
             if (optimalPrice[assetName] >= price)
